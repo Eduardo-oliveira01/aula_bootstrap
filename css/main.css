@@ -1,0 +1,80 @@
+:root{
+    --corfundo : rgb(204, 216, 226);
+}
+
+body{
+    font-size: 20px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: wheat;
+}
+.container-principal{
+    border: 1px solid black;
+    padding: 2px;
+    background-color: rgb(77, 78, 83);
+}
+
+.navbar{
+    background-color: rgb(13, 108, 146);
+}
+
+.navbar img{
+    border-radius: 50%;
+    margin-left: 110%;
+}
+
+.collapse{
+    margin-left: 10%;
+}
+
+/*estilos que fiz*/
+#link-menu{
+    color: white;
+}
+
+#link-menu:hover{
+    color: rgba(255, 255, 255, 0.589);
+}
+
+.quem-somos{
+    background-color: var(--corfundo);
+    width: 100vw;
+    color: white;
+    text-shadow: 0 0 3px black;
+}
+    
+
+.margin{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.oque-estudo{
+    background-color: var(--corfundo);
+    color: white;
+    text-shadow: 0 0 3px black;
+}
+
+#oque-estudo img{
+    width: 70%;
+    height: 70%;
+    border-radius: 20px;
+    border: 1px solid rgb(206, 222, 226);
+}
+
+#oque-estudo p{
+    font-size: 25px;
+    
+    color: black;
+    text-shadow: 0 0 3px white;
+}
+
+.oque-pratico{
+    background-color: var(--corfundo);
+    color: black;
+    text-shadow: 0 0 3px white;
+}
+
+.rodape{
+    background-color: rgb(13, 108, 146);
+    color: whitesmoke;
+}
